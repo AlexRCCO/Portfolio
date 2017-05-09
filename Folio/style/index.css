@@ -1,0 +1,459 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Ubuntu','Arial','sans-serif';
+
+
+}
+main {
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+
+
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*---------Première page------------*/
+/*------------HELLO I'M------------*/
+
+
+div.black  {
+	width: 50%;
+	background-color: #000;
+	height: 100%;
+	float: left;
+	color: #fff;
+	transition: 1s;
+	transform: translateX(-100%);
+	height: 275em;
+
+
+}
+div.white {
+	width: 50%;
+	float: right;
+	background-color: #AFEEEE;
+	transform: translateX(150%);
+	transition: 1s;
+	height: 275em;
+
+
+
+
+}
+
+.black.active {
+	transform: translateX(0);
+}
+.white.active {
+	transform: translateX(0);
+}
+
+
+/*---------Li Puma Alexandre---------*/
+
+h1.Lipuma {
+	text-align: center;
+	margin-left: 20%;
+	margin-top: 20%;
+  font-size: 80px;
+  font-weight: lighter;
+
+}
+h1.Alexandre {
+	text-align: center;
+	margin-right: 20%;
+	margin-top: 45%;
+	font-size: 80px;
+	font-weight: lighter;
+}
+
+
+/*------------Button---------*/
+button {
+	margin-left: 40%;
+	border-radius: 15px;
+	width: 20%;
+	height: 50px;
+	font-size: 25px;
+
+}
+button.about {
+	margin-top: 30%;
+	background-color: #fff;
+
+}
+button.project {
+	margin-top: 5%;
+	background-color: #000;
+	color: #fff;
+
+}
+
+a.noir {
+	text-decoration: none;
+	color: #000;
+}
+a.blanc {
+	text-decoration: none;
+	color: #fff;
+}
+/*Button One*/
+.button-one {
+  border-radius: 10px;
+  background-color:#fff;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  color: #000;
+  margin-top: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Ubuntu','Arial','sans-serif';
+
+}
+
+
+.button-one span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button-one span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-one:hover span {
+  padding-right: 25px;
+}
+
+.button-one:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*Button Two*/
+.button-two {
+  border-radius: 10px;
+  background-color:#000;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  color: #fff;
+  margin-top: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Ubuntu','Arial','sans-serif';
+
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/*--------------------About Me-------------------*/
+h2#qui-suis-je {
+	margin-top: 30%;
+	text-align: center;
+	font-size: 45px;
+	font-weight: lighter;
+}
+p.hetic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 27px;
+	margin-top: 3%;
+	width: 92%;
+	text-align: center;
+	font-weight: lighter;
+
+
+}
+h2.hetic2 {
+	margin-top: 15%;
+	text-align: center;
+	font-size: 45px;
+	font-weight: lighter;
+
+}
+p.actuellement {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 27px;
+	margin-top: 3%;
+	width: 92%;
+	text-align: center;
+	font-weight: lighter;
+
+}
+img.moi {
+	border-radius: 200px;
+	margin-top: 30%;
+
+}
+/*----------------------Me Contacter------------------*/
+
+div.contact {
+
+	margin-top: 10%;
+}
+div.CV:hover {
+	text-decoration: underline;
+}
+img.logo {
+	width: 50px;
+	margin-top: 5%;
+
+
+}
+img.logo:hover {
+	width: 55px;
+	transition: 0.2s;
+
+}
+div.linkedin {
+	float: left;
+	margin-left: 43%;
+	padding-right: 5%;
+
+
+
+}
+
+div.github {
+	float: left;
+
+}
+div.CV {
+	margin-top: 15%;
+	text-align: center;
+	margin-left: 4%;
+
+
+}
+/*---------------PROJET--------------*/
+
+div.image1 {
+	margin-top: 18%;
+	display: block;
+}
+div.image {
+	margin-top: 25%;
+	height: 190
+
+}
+div.projet {
+	width: 100%;
+	margin-top: 30%;
+	text-align: center;
+}
+div.projet-logo {
+	width: 100%;
+	margin-top: 40%;
+	text-align: center;
+
+}
+h3.nom-de-projet {
+	font-size: 35px;
+	font-weight: 500;
+
+
+}
+
+h4.semaine {
+	font-size: 25px;
+	font-weight: lighter;
+}
+p.rôle {
+	font-size: 20px;
+	margin-top: 1%;
+}
+div.SI {
+	margin-top: 23.5%;
+	height: 190px;
+
+
+
+}
+
+
+/*-----------------IMAGE-----------*/
+img.cook {
+	width: 250px;
+	transition: 2s;
+	opacity: 1;
+}
+
+img.player {
+	width: 250px;
+	opacity: 0;
+	transition: 2s;
+}
+img.art {
+	width: 250px;
+	opacity: 0;
+	transition: 2s;
+	padding-top: 1%;
+}
+img.cycle {
+	width: 250px;
+	opacity: 0;
+	transition: 2s;
+	padding-top: 7%;
+}
+
+/*------INFORMATIONS PROJETS-------------*/
+div.street {
+	opacity: 1;
+	transition: 2s;
+}
+div.cook2 {
+	transition: 2s;
+	padding-top: 2%;
+	opacity: 0;
+}
+div.player {
+	opacity: 0;
+	transition: 2s;
+}
+div.the-cycle {
+	opacity: 0;
+	transition: 2s;
+	height: 150px;
+}
+
+/*---------RESPONSIVE-------------*/
+
+@media screen and (max-width: 1340px)
+{
+	div.projet {
+		margin-top: 40%;
+	}
+
+}
+@media screen and (max-width: 1220px)
+{
+	div.projet {
+		margin-top: 30%;
+	}
+
+}
+
+@media screen and (max-width: 1075px)
+{
+	div.projet {
+		margin-top: 50%;
+	}
+
+}
+@media screen and (max-width: 800px)
+{
+	div.projet {
+		margin-top: 70%;
+
+	}
+	p.hetic {
+		font-size: 20px;
+	}
+	p.actuellement {
+		font-size: 20px;
+	}
+
+
+}
+
+@media screen and (max-width: 700px)
+{
+	div.projet {
+		margin-top: 475px;
+
+	}
+	div.SI {
+		margin-top: 33%;
+	}
+	div.image {
+		margin-top: 35%;
+	}
+
+
+}
+@media screen and (max-width: 560px)
+{
+	div.projet {
+		margin-top: 525px;
+
+	}
+	div.SI {
+		margin-top: 33%;
+	}
+	div.image {
+		margin-top: 35%;
+	}
+	img.moi {
+		border-radius: 200px;
+		margin-top: 30%;
+
+		width: 50%;
+
+	}
+
+
+}

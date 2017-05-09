@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="styles/screen.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <title>Contactez-nous</title>
+</head>
+
+<body>
+    <main>
+        <div class="header-artistreet">
+            <header>
+                <a href="index.html"><h1>Art&Street</h1></a>
+            </header>
+        </div>
+        <div class="nav-artistreet responsive-nav undisplayed">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="artistes-liste.html">Artistes</a></li>
+                    <li><a href="events3.html">Expositions</a></li>
+                    <li class="nav-active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-menu-responsive-nav-artistreet">
+            <p>&#9776;</p>
+        </div>
+        <div class="form-name-mail-message_googleMap">
+            <div class="form-name-mail-message">
+                <div class="form-name">
+                    <label>Nom et Prénom</label>
+                    <input type="text">
+                </div>
+                <div class="form-mail">
+                    <label>Adresse Mail</label>
+                    <input type="email">
+                </div>
+                <div class="form-message">
+                    <label>Message</label>
+                    <textarea type="textarea" cols="30" rows="14"></textarea>
+                </div>
+                <div class="form-send-button">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </div>
+            <div id="map" class="googleMap"></div>
+        </div>
+        <div class="footer-for-all-pages">
+            <footer>
+                <ul>
+                    <li>Plan du site</li>
+                    <li>Contactez-nous</li>
+                    <li>Mentions Légales</li>
+                    <li>Charte</li>
+                    <li>FAQ</li>
+                </ul>
+                <div class="social-media">
+                    <p>Retrouvez-nous :</p>
+                    <div class="social-media-icons">
+                        <img src="img-content/facebook.png">
+                        <img src="img-content/twitter%20(1).png">
+                        <img src="img-content/instagram%20(2).png">
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5XK-DsvdvNnRczLUZWuHQqIcunQ-YTGs&callback=myMap"></script>
+        <script src="js/artistreet.js"></script>
+    </main>
+</body>
+
+</html>

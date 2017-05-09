@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Sawapaw</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div class="timer" style="position:absolute; left:50%; top:50%;z-index:900;" >test</div>
+  <main>
+    <audio class="sound"></audio>
+    <div class="player">
+
+
+
+			<div class="cover">
+				<img alt="cover" src="img-content/booba.jpg" style="background-color:#af5;width:100%; height:522px; display:block;">
+				<input type="range" value="0" step="0.000001">
+			</div>
+
+			<div class="fav">
+					<svg id="favSvg" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.66 26.1"><title>favoris</title><path d="M966.66,330.1a9.06,9.06,0,0,1-.43,2.76c-1.47,6.21-12.19,13.09-13.41,13.86a1.87,1.87,0,0,1-2,0c-1.22-.77-11.95-7.66-13.42-13.86a9.17,9.17,0,0,1,4.32-10.8,9.2,9.2,0,0,1,10.09.79,9.16,9.16,0,0,1,5.64-1.93,9.18,9.18,0,0,1,9.19,9.19" fill="#fff" transform="translate(-937 -320.9)"/></svg>
+			</div>
+
+      <div class="list">
+  			<div>
+  					<svg  id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.29 17.39"><title>list</title><polyline fill="#fff" points="32.29 5.43 32.29 0 0 0 0 5.43"/><polyline fill="#fff" points="0 11.95 0 17.39 32.29 17.39 32.29 11.95"/></svg>
+  			</div>
+      </div>
+
+			<div class="title">Diamond</div>
+
+			<div class="name">Tory lanez</div>
+
+			<div class="repeat">
+					<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.56 21.73"><defs><style>.cls-1{fill:#b1b1b1;}</style></defs><title>aleatoire</title><path class="cls-1" d="M427.78,319c-.36,0-.61.31-.61.87l0,5.71c0,.55.25.87.62.87a1,1,0,0,0,.52-.18l4.32-2.79a.81.81,0,0,0,0-1.47l-4.36-2.84a1,1,0,0,0-.52-.18m-.61,2.46c-6.06.8-10.62,4.25-10.62,8.39,0,2.39,1.52,4.54,4,6.1a3,3,0,0,0,1.6.56,1.26,1.26,0,0,0,.5-2.47c-2.09-1-3.4-2.53-3.4-4.19,0-2.66,3.39-4.89,8-5.52Zm10.35,1.49a1.44,1.44,0,0,0-1,2.46c2.41,1,4,2.65,4,4.44,0,2.66-3.39,4.89-8,5.52v2.87c6.06-.79,10.62-4.25,10.62-8.39,0-2.57-1.77-4.88-4.55-6.44a1.45,1.45,0,0,0-1-.46m-5.65,10.33a1,1,0,0,0-.52.18L427,336.29a.81.81,0,0,0,0,1.47l4.32,2.78a1,1,0,0,0,.52.18c.37,0,.63-.32.63-.87l0-5.71c0-.55-.25-.87-.61-.87" transform="translate(-416.55 -318.99)"/></svg>
+			</div>
+
+			<div class="shuffle">
+					<svg  class="shuffleSvg" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.3 20.8"><defs></defs><title>repeat</title><path fill:"#b1b1b1"  d="M959.43,323.36a.4.4,0,0,0-.3.12.41.41,0,0,0-.12.3v2.5h-3.33a6.22,6.22,0,0,0-1.66.22,6.3,6.3,0,0,0-1.38.55,5.24,5.24,0,0,0-1.17.89,10.38,10.38,0,0,0-1,1.08,10.89,10.89,0,0,0-.83,1.3q-.44.78-.7,1.36l-.64,1.44q-.6,1.42-1,2.22a11.37,11.37,0,0,1-.58,1,5.38,5.38,0,0,1-.66.8,2.54,2.54,0,0,1-.9.59,3.13,3.13,0,0,1-1.13.2h-2.91a.4.4,0,0,0-.42.42v2.5a.4.4,0,0,0,.42.42H944a6.4,6.4,0,0,0,3-.76,5.2,5.2,0,0,0,1.17-.89,10.71,10.71,0,0,0,1-1.08,11,11,0,0,0,.83-1.3q.43-.78.7-1.36l.64-1.44q.6-1.42,1-2.22a11.31,11.31,0,0,1,.59-1,5.22,5.22,0,0,1,.66-.8,2.54,2.54,0,0,1,.9-.58,3.1,3.1,0,0,1,1.13-.19H959v2.5a.42.42,0,0,0,.42.42.41.41,0,0,0,.3-.12l4.16-4.16a.44.44,0,0,0,0-.6l-4.15-4.15a.49.49,0,0,0-.31-.13" transform="translate(-940.7 -323.36)"/><path fill:"#b1b1b1" class="cls-1" d="M944,326.27h-2.91a.4.4,0,0,0-.42.42v2.5a.4.4,0,0,0,.42.42H944a2.9,2.9,0,0,1,1.06.19,3,3,0,0,1,.82.45,3.6,3.6,0,0,1,.66.73,8.92,8.92,0,0,1,.53.82q.2.36.48.94a24.09,24.09,0,0,1,1.78-3.55,6.3,6.3,0,0,0-5.33-2.93" transform="translate(-940.7 -323.36)"/><path fill:"#b1b1b1" class="cls-1" d="M952.13,334.77a26.38,26.38,0,0,1-1.77,3.55,7.49,7.49,0,0,0,.73.9q.38.4.72.69a3.65,3.65,0,0,0,.77.52l.76.37a3.51,3.51,0,0,0,.82.24l.83.14q.34,0,.92.06l.75,0H959v2.5a.42.42,0,0,0,.71.3l4.16-4.16a.44.44,0,0,0,0-.6l-4.15-4.15a.49.49,0,0,0-.31-.13.4.4,0,0,0-.3.12.41.41,0,0,0-.12.3v2.5h-3.33a2.9,2.9,0,0,1-1.06-.19,3,3,0,0,1-.82-.46,3.57,3.57,0,0,1-.66-.73,8.62,8.62,0,0,1-.53-.82q-.2-.36-.48-.94" transform="translate(-940.7 -323.36)"/></svg>
+			</div>
+
+			<div class="center">
+				<div class="prev">
+						<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.44 33.7"><defs><style>.cls-1{fill:#e63e1c;}</style></defs><title>previous</title><path class="cls-1" d="M950.91,331.19l17.76-14.11a2.83,2.83,0,0,1,2.72.12,2.71,2.71,0,0,1,1.33,2.33v28.23a2.73,2.73,0,0,1-1.33,2.33,2.84,2.84,0,0,1-2.72.11l-17.76-14.12c-.86-.8-1.53-1.4-1.53-2.45s.57-1.6,1.53-2.44" transform="translate(-932.27 -316.79)"/><path class="cls-1" d="M933.8,331.19l17.76-14.11a2.83,2.83,0,0,1,2.72.12,2.72,2.72,0,0,1,1.33,2.33v28.23a2.73,2.73,0,0,1-1.33,2.33,2.84,2.84,0,0,1-2.72.11L933.8,336.08c-.86-.8-1.54-1.4-1.54-2.45s.58-1.6,1.54-2.44" transform="translate(-932.27 -316.79)"/></svg>
+				</div>
+
+				<div class="pause">
+						<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 68.15 68.15"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#e63e1c;}.cls-4{fill:#fff;}</style><clipPath id="clip-path" transform="translate(-918 -299.85)"><rect class="cls-1" x="918" y="299.85" width="68.15" height="68.15"/></clipPath></defs><title>pause</title><g class="cls-2"><path class="cls-3" d="M986.15,333.93a34.07,34.07,0,1,1-34.08-34.07,34.07,34.07,0,0,1,34.08,34.07" transform="translate(-918 -299.85)"/></g><rect class="cls-4" x="21.37" y="16.14" width="10.3" height="35.88"/><rect class="cls-4" x="36.48" y="16.14" width="10.3" height="35.88"/></svg>
+				</div>
+
+				<div class="play">
+						<svg id="playSvg" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.15 68.15"><defs><style>.cls-1{fill:#e63e1c;}.cls-2{fill:#fff;}</style></defs><title>play</title><path class="cls-1" d="M986.4,333.93a34.07,34.07,0,1,1-34.08-34.07,34.07,34.07,0,0,1,34.08,34.07" transform="translate(-918.26 -299.85)"/><polygon class="cls-2" points="51.7 34.08 25.85 51.7 25.85 16.45 51.7 34.08"/><path class="cls-2" d="M945.28,318.53v30.8l22.6-15.41Zm-1.17,34.2a1.18,1.18,0,0,1-1.18-1.18V316.3a1.17,1.17,0,0,1,1.84-1L970.62,333a1.17,1.17,0,0,1,0,1.94l-25.85,17.63a1.17,1.17,0,0,1-.66.21" transform="translate(-918.26 -299.85)"/></svg>
+				</div>
+
+				<div class="next">
+						<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.44 33.7"><defs><style>.cls-1{fill:#e63e1c;}</style></defs><title>next</title><path class="cls-1" d="M953.75,331.19,936,317.08a2.83,2.83,0,0,0-2.72.12,2.71,2.71,0,0,0-1.33,2.33v28.23a2.73,2.73,0,0,0,1.33,2.33,2.84,2.84,0,0,0,2.72.11l17.76-14.12c.86-.8,1.53-1.4,1.53-2.45s-.57-1.6-1.53-2.44" transform="translate(-931.95 -316.79)"/><path class="cls-1" d="M970.85,331.19l-17.76-14.11a2.83,2.83,0,0,0-2.72.12,2.72,2.72,0,0,0-1.33,2.33v28.23a2.73,2.73,0,0,0,1.33,2.33,2.84,2.84,0,0,0,2.72.11l17.76-14.12c.85-.8,1.53-1.4,1.53-2.45s-.58-1.6-1.53-2.44" transform="translate(-931.95 -316.79)"/></svg>
+				</div>
+
+				<div class="vol">
+					<input type="range" value="100" >
+				</div>
+			</div>
+			<div class="playlist">
+				<div>
+					<a data-key="0" href="">
+						<h2>Boulbi</h2>
+						<p>Booba</p>
+					</a>
+				</div>
+				<div>
+					<a data-key="1" href="">
+						<h2>We are the world</h2>
+						<p>Michael Jackson</p>
+					</a>
+				</div>
+				<div>
+					<a data-key="2" href="">
+						<h2>Stressed out</h2>
+						<p>Twenty One Pilots</p>
+					</a>
+				</div>
+				<div>
+					<a data-key="3" href="">
+						<h2>She Wolf</h2>
+						<p>Sia</p>
+					</a>
+				</div>
+				<div>
+					<a data-key="4" href="">
+						<h2>Ma Gueule</h2>
+						<p>Johnny Halliday</p>
+					</a>
+				</div>
+				<div>
+					<a data-key="5" href="">
+						<h2>Say it</h2>
+						<p>Tory Lanez</p>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+  <!-- build:js js/min.js -->
+  <script>
+  /* jshint esversion:6 */
+
+  // const showPlaylist = function(e) {
+  //   if(playlist.style.display === "" ) {
+  //   playlist.style.display= 'block';
+  //   listPoly[0].style.fill = "#e63e1c";
+  //   listPoly[1].style.fill = "#e63e1c";
+  //   } else {
+  //     playlist.style.display = '';
+  //     listPoly[0].style.fill = "#fff";
+  //   listPoly[1].style.fill = "#fff";
+  //   }
+  // };
+  </script>
+  <!-- Liste des musiques -->
+  <script src="json/musics.js"></script>
+  <!-- Initialisation des variables -->
+  <script src="js/varSet.js"></script>
+  <!-- Fonction de randomisation de l'index pour le shuffle -->
+  <script src="js/randomIndex.js"></script>
+  <!-- Gestion des liens de la playlist -->
+  <script src="js/playList.js"></script>
+  <!-- Ajout aux favoris -->
+  <script src="js/addFav.js"></script>
+  <!-- Contrôles du player -->
+  <script src="js/player.js"></script>
+  <!-- Gestion des inputs -->
+  <script src="js/inputRange.js"></script>
+  <!-- Event Listeners -->
+  <script>
+  const timer = document.querySelector('.timer');
+  setInterval(function(){
+    let a = sound.currentTime.toString().slice(0,3);
+    timer.innerHTML = a;
+  }, 100)
+  </script>
+  <script src="js/eventListeners.js"></script>
+  <!-- endbuild -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<script src="js/two.js"></script>
+</body>
+</html>

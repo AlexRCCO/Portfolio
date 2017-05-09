@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accueil</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="shortcut icon" href="img-content/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<main class="clearfix">
+
+		<div class="black">
+
+
+			<h1 class="Lipuma">Li Puma</h1>
+
+			<button href="#qui-suis-je" class="button-one scroll"><span>Sur moi</span></button>
+
+
+
+
+			<h2 id="qui-suis-je">Qui suis-je ?</h2>
+
+			<p class="hetic">Je suis Li Puma Alexandre et depuis quelques années maintenant je suis intéressé par les métiers du web. Le web est un monde qui ne cesse d'évoluer chaque jours. C'est pourquoi il y a maintenant 1 an j'ai commencé à l'étudier.</p>
+
+			<h2 class="hetic2">Hetic</h2>
+
+			<p class="actuellement"> Actuellement j'étudie a Hetic dans la formation Bachelor Web. Pour compléter ma formation je suis à la recherche d'un stage.</p>
+
+			<div class="projet-logo">
+
+				<div class="image">
+
+					<a href="Wild-cookin/index.html"><img  class="cook" src="img-content/wildcook.png" alt="cook"></a>
+
+				</div>
+
+				<div class="image">
+
+					<a href="sawapaw/charrete.html"><img class="player" src="img-content/player.png" alt="player"></a>
+				</div>
+
+				<div class="image">
+
+					<a href="Art&Street/index.html"><img class="art" src="img-content/artstreet.png" alt="ollivanders"></a>
+				</div>
+
+				<div class="image">
+
+					<a href="The-Cycle/index.html"><img class="cycle" src="img-content/the-cycle.png" alt="the-cycle"></a>
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+
+		<div class="white">
+
+
+
+			<h1 class="Alexandre">Alexandre</h1>
+
+			<button  href=".image" class="button-two scroll"><span>Mes projets</span></button>
+
+			<center><img class="moi" src="img-content/moi.jpg" ></center>
+
+			<center>
+
+			<div class="contact clearfix">
+
+				<div class="linkedin">
+					<a href="https://www.linkedin.com/in/alexandre-li-puma-a3a10613a/"><img class="logo" src="img-content/linkedin.png" alt="github"></a>
+				</div>
+
+
+				<div class="github">
+					<a href="https://github.com/"><img class="logo" src="img-content/github.png" alt="github"></a>
+				</div>
+
+
+			</div>
+			</center>
+
+
+			<div class="CV">
+				<a href="CV-final.pdf"><img class="cv" download="CV-final.pdf" src="img-content/cv.png" alt="CV">
+					<p>Télécharger mon CV</p></a>
+		    </div>
+
+
+		    <div class="projet">
+
+		     <div class="SI">
+
+		    	<div class="cook2">
+
+		    		<h3 class="nom-de-projet">Wildcooking (5 personnes)</h3>
+		    		<h4 class="semaine">Semaine intensive d'intégration (Tout premier projet)</h4>
+		    		<p class="rôle">Mission: Chef de projet-Intégrateur</p>
+		    	</div>
+
+
+		    	</div>
+
+		    	<div class="SI">
+
+		    	<div class="player">
+
+		    		<h3 class="nom-de-projet">Player Musical (5 personnes)</h3>
+		    		<h4 class="semaine">Nuit charette</h4>
+		    		<p class="rôle">Mission: Développeur Front/End</p>
+
+		    	</div>
+
+
+
+		    	</div>
+
+		    	<div class="SI">
+
+		    	<div class="street">
+		    		<h3 class="nom-de-projet">Art&Street (2 personnes)</h3>
+		    		<h4 class="semaine">Projet TP</h4>
+		    		<p class="rôle">Mission: Développeur Front/End</p>
+		    	</div>
+
+		    	</div>
+
+		    	<div class="SI">
+
+		    	<div class="the-cycle">
+		    		<h3 class="nom-de-projet">The Cycle (5 personnes)</h3>
+		    		<h4 class="semaine">Semaine Intensive Web 3D </h4>
+		    		<p class="rôle">Mission: Développeur Front/End</p>
+		    	</div>
+
+		    	</div>
+
+
+		    </div>
+	</div>
+
+
+			</main>
+
+			<script type="text/javascript">
+				var black = document.querySelector('.black');
+				var white = document.querySelector('.white');
+
+				var cook = document.querySelector('.cook');
+				var player = document.querySelector('.player');
+				var street = document.querySelector('div.street');
+				var cycle = document.querySelector('.cycle');
+				var cook2 = document.querySelector('.cook2');
+				var art = document.querySelector('.art');
+				var player2 = document.querySelector('div.player');
+				var cycle2 = document.querySelector('.the-cycle');
+
+
+
+
+
+				window.onload = function() {
+					black.classList.add('active');
+					white.classList.add('active');
+
+				};
+
+
+
+				document.addEventListener('scroll', function() {
+
+					if (document.body.scrollTop > 1000) {
+						cook.style.opacity = 1;
+						cook2.style.opacity = 1;
+					}
+					else {
+						cook.style.opacity = 0;
+						cook2.style.opacity = 0;
+
+					}
+
+
+					if (document.body.scrollTop > 1400) {
+						player.style.opacity = 1;
+						player2.style.opacity = 1;
+					}
+					else {
+						player.style.opacity = 0;
+						player2.style.opacity = 0;
+
+					}
+
+					if (document.body.scrollTop > 1800) {
+						street.style.opacity = 1;
+						art.style.opacity = 1;
+					}
+					else {
+						art.style.opacity = 0;
+						street.style.opacity = 0;
+					}
+
+					if (document.body.scrollTop > 2100) {
+						cycle.style.opacity = 1;
+						cycle2.style.opacity = 1;
+					}
+					else {
+						cycle.style.opacity = 0;
+						cycle2.style.opacity = 0;
+
+					}
+
+				});
+
+
+
+
+
+			</script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<script>
+			$(function(){
+
+				$('.scroll').click(function() {
+
+
+					var cible = $(this).attr('href');
+					console.log(cible)
+
+					$('html, body').animate({scrollTop: $(cible).offset().top}, 1000);
+				});
+
+			});
+			</script>
+
+
+
+
+
+
+</body>
+</html>

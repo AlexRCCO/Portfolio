@@ -1,0 +1,880 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    font-family: 'hind';
+}
+
+/*-----------------------------------------------------------*/
+/*-----Header & Nav In All Html Documents-----*/
+/*-----------------------------------------------------------*/
+
+div.header-artistreet{
+    width: 80%;
+    margin: 60px auto;
+}
+
+div.header-artistreet header{
+    width: 100%;
+    border-bottom: 5px solid #000;
+    text-align: center;
+    margin: auto;
+}
+
+div.header-artistreet header h1{
+    padding-bottom: 70px;
+    font-family: 'LetterOMatic!';
+    font-size: 35px;
+}
+div.nav-artistreet{
+    width: 20%;
+    position: absolute;
+    top: 230px;
+    left: 10%;
+    font-family: 'hind','arial','sans-serif';
+}
+
+div.only-index-html{
+    width: 20%;
+    position: absolute;
+    top: 600px;
+    left: 10%;
+    font-family: 'hind','arial','sans-serif';
+}
+
+div.nav-artistreet a{
+    text-decoration: none;
+    color: #000;
+}
+
+div.nav-artistreet ul li:not(.nav-active){
+    width: 80%;
+    border-bottom: 1px solid #000;
+    list-style: none;
+    padding-top: 25px;
+    font-size: 17px;
+}
+
+div.only-index-html ul li:not(.nav-active){
+    width: 80%;
+    border-bottom: 1px solid #000;
+    list-style: none;
+    padding-top: 25px;
+    font-size: 17px;
+}
+
+.nav-active{
+    font-size: 20px;
+    font-weight: 900;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    list-style: none;
+    padding-top: 25px;
+}
+
+div.burger-menu-responsive-nav-artistreet{
+    display: none;
+}
+
+div.footer-for-all-pages{
+    width: 100%;
+    margin-top: 100px;
+    clear: both;
+}
+
+div.footer-for-all-pages footer{
+    border-top: 5px solid #000;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+div.footer-for-all-pages footer ul{
+    list-style: none;
+    position: absolute;
+    width: 20%;
+    top: 60px;
+    left: 10%;
+}
+
+div.footer-for-all-pages footer div.social-media{
+    width: 40%;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+div.social-media p{
+    text-transform: uppercase;
+    display: inline;
+}
+
+div.social-media div.social-media-icons{
+    width: 50%;
+    display: inline;
+}
+
+div.social-media-icons img{
+    width: 30px;
+}
+/*------------------------------------------------------------------------*/
+
+/*-----Index.html-----*/
+
+div.slider{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+div.slider figure{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    transition: 1s opacity;
+}
+div.slider figure img{
+    width: 100%;
+}
+
+div.welcome{
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 35%;
+}
+
+.active{
+    opacity: 1;
+    z-index: 997;
+}
+
+.relai{
+    opacity: 0;
+}
+
+/*-----Artiste_article.html-----*/
+
+/*----nascio profile----*/
+/*----------------------*/
+div.nascio-profile{
+    width: 80%;
+    margin: auto;
+}
+
+div.nascio-profile figure.nascio-picture{
+    width: 20%;
+    margin: auto;
+
+}
+
+figure.nascio-picture img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+figure.nascio-picture figcaption{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*----nascio bio----*/
+/*------------------*/
+div.nascio-bio{
+    width: 80%;
+    margin: auto;
+}
+
+div.nascio-bio div.biographie{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+}
+
+div.nascio-bio p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/*----nascio portfolio----*/
+/*------------------------*/
+
+div.main-work{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img-layout/paralaxe.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+div.popular-works{
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+div.oeuvre-importante{
+    width: 100%;
+    text-align: center;
+}
+
+div.oeuvre-importante-1,
+div.oeuvre-importante-2,
+div.oeuvre-importante-3{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+div.oeuvre-importante-1 p,
+div.oeuvre-importante-2 p,
+div.oeuvre-importante-3 p{
+    width: 30%;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+div.oeuvre-importante h3 {
+    padding-top: 3%;
+    font-size: 22px;
+    font-weight: 400;
+}
+/*----nascio works----*/
+div.background-image-1-work-parallax,
+div.background-image-2-work-parallax,
+div.background-image-3-work-parallax{
+    background-position: 50% 0;
+}
+
+/*----nascio work-1----*/
+/*------------------*/
+div.oeuvre-importante-1 div.background-image-1-work-parallax{
+    width: 30%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    background-image: url("../img-layout/oeuvre.jpg");
+    background-attachment: fixed;
+}
+
+div.oeuvre-importante-1 p{
+    top: 300px;
+    text-align: right;
+    right: 30%;
+}
+
+/*----nascio work-2----*/
+/*------------------*/
+div.oeuvre-importante-2 div.background-image-2-work-parallax{
+    width: 30%;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    right: 10%;
+    background-image: url("../img-layout/oeuvre2.jpg");
+    background-attachment: fixed;
+    background-size: no-repeat;
+}
+
+div.oeuvre-importante-2 p{
+    top: 400px;
+    left: 30%;
+}
+
+/*----nascio work-3----*/
+/*------------------*/
+div.oeuvre-importante-3 div.background-image-3-work-parallax{
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("../img-layout/oeuvre3.jpg");
+    background-attachment: fixed;
+    ;
+}
+
+div.oeuvre-importante-3 p{
+    top: 550px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+/*-----Artiste_liste.html-----*/
+
+/*----section----*/
+div.artists-listing-section{
+    width: 100%;
+}
+
+section.artists-listing{
+    width: 60%;
+    margin-left: 30%;
+    overflow: auto;
+}
+
+section.artists-listing div.artists-listing-section-title{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+section.artists-listing article{
+    width: 30%;
+    float: left;
+    padding: 60px 10%;
+}
+
+section.artists-listing article figure{
+    width: 100%;
+    position: relative;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+section.artists-listing article figure img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+section.artists-listing figcaption,
+section.artists-listing div.artist-hover{
+    text-align: center;
+}
+section.artists-listing figcaption,
+section.artists-listing div.artist-hover p {
+    font-size: 25px;
+
+}
+
+section.artists-listing figure div.artist-hover{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.4s;
+}
+
+section.artists-listing figure img:hover{
+    filter: contrast(30%);
+}
+div.artist-hover {
+
+}
+
+.invisible{
+    opacity: 0;
+}
+
+.visible{
+    opacity: 1;
+}
+
+/*------ARTISTE.EVENTS---------*/
+div.main-event-other-events {
+    width: 60%;
+    margin-left: 30%;
+}
+section.main-event {
+    width: 100%;
+}
+section.main-event figure {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+section.main-event figure img {
+    width: 100%;
+    opacity: 0.8
+}
+section.main-event figure:hover {
+    opacity: 0.75;
+}
+section.main-event figure figcaption {
+    position: absolute;
+}
+figcaption.retrouvez-nous {
+    top: 15%;
+    font-family: 'hind';
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+}
+figcaption.retrouvez-nous p {
+    font-size: 35px;
+    width: 50%;
+    font-weight: 500;
+    color: #fff;
+    left: 10%;
+    top: 15%;
+}
+figcaption.plus-d_infos {
+    bottom: 5%;
+    right: 1%;
+    font-size: 30px;
+    width: 30%;
+    font-weight: 500;
+     font-family: 'hind';
+
+}
+/*------other_events-------*/
+div.main-event-other-events section.other-events {
+
+}
+section.other-events {
+    width: 100%;
+    font-family: 'hind';
+    font-weight: 500;
+
+}
+section.other-events div h3 {
+    text-align: center;
+    font-size: px;
+    font-weight: lighter;
+    width: 100%;
+    margin: auto;
+}
+section.other-events article {
+    width: 40%;
+    float: left;
+    padding: 0 5%;
+
+}
+section.other-events article figure figcaption {
+    text-align: center;
+}
+section.other-events article figure figcaption.auteur {
+    font-size: 25px;
+    font-weight: 600;
+}
+section.other-events article figure figcaption.date {
+    font-size: 20px;
+    font-weight: 200;
+}
+section.other-events figure img {
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+
+}
+section.other-events figure img:hover {
+    opacity: 0.7;
+}
+
+/*-----Contact.html-----*/
+
+div.form-name-mail-message_googleMap{
+    width: 60%;
+    margin-left: 30%;
+}
+
+div.form-name-mail-message,
+div.googleMap{
+    width: 50%;
+    float: left;
+}
+
+div.googleMap{
+    padding-top: 10px;
+    height: 400px;
+}
+
+div.form-name-mail-message div.form-name,
+div.form-name-mail-message div.form-mail,
+div.form-name-mail-message div.form-message,
+div.form-name-mail-message div.form-send-button{
+    width: 100%;
+    margin-top: 35px;
+}
+
+div.form-name-mail-message div.form-name label,
+div.form-name-mail-message div.form-mail label,
+div.form-name-mail-message div.form-message label,
+div.form-name-mail-message div.form-send-button input{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+div.form-name-mail-message div.form-name input,
+div.form-name-mail-message div.form-mail input,
+div.form-name-mail-message div.form-message textarea{
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding: 5px;
+}
+
+/*-----------------------------------------------------------*/
+
+@media only screen and (max-width: 1024px){
+
+    /*-----Header & Nav In All Html Documents-----*/
+    div.nav-artistreet{
+        width: 15%;
+    }
+
+    /*-----Artiste_article.html-----*/
+    div.nascio-profile figure.nascio-picture{
+        width: 30%;
+    }
+
+    div.nascio-bio p{
+        width: 80%;
+    }
+
+    div.oeuvre-importante-1 div.background-image-1-work-parallax{
+        width: 40%;
+        left: 5%;
+    }
+
+    div.oeuvre-importante-2 div.background-image-2-work-parallax{
+        width: 40%;
+        right: 5%;
+    }
+
+    div.oeuvre-importante-3 div.background-image-3-work-parallax{
+        width: 90%;
+    }
+
+    div.oeuvre-importante-1 p{
+        right: 5%;
+    }
+
+    div.oeuvre-importante-2 p{
+        left: 5%;
+    }
+
+    /*-----Contact-----*/
+    div.form-name-mail-message,
+    div.googleMap{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /*-----Events.html-----*/
+    figcaption.retrouvez-nous p{
+        font-size: 22px;
+    }
+
+    section.other-events article{
+        float: none;
+        width: 60%;
+        margin: auto;
+    }
+
+}
+
+/*-----------------------------------------------------------*/
+
+@media only screen and (max-width: 760px){
+
+    /*---Hover-none----*/
+    section.artists-listing figure img:hover{
+        filter: none;
+    }
+    section.main-event figure:hover{
+        opacity: 1;
+    }
+    section.other-events figure img:hover{
+        opacity: 1;
+    }
+
+    /*-----Header, Nav & Footer In All Html Documents-----*/
+    div.header-artistreet header h1{
+        font-size: 28px;
+    }
+
+    div.burger-menu-responsive-nav-artistreet{
+        display: inline;
+        position: absolute;
+        top: 25px;
+        left: 5%;
+        font-size: 35px;
+        font-weight: bolder;
+        cursor: pointer;
+        z-index: 999;
+    }
+
+    div.nav-artistreet,
+    div.only-index-html{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: #fff;
+        z-index: 998;
+    }
+
+    div.nav-artistreet ul li,
+    div.only-index-html ul li{
+        text-align: center;
+        width: 45%;
+        padding: 20px 0;
+        margin: 60px auto;
+    }
+
+    .displayed{
+        display: block;
+    }
+
+    .undisplayed{
+        display: none;
+    }
+
+    div.footer-for-all-pages footer ul{
+        width: 30%;
+        left: 0;
+    }
+
+    div.social-media p{
+        display: block;
+    }
+
+    div.social-media div.social-media-icons{
+        width: 100%
+    }
+
+    div.social-media-icons img{
+        width: 30px;
+    }
+
+    /*-----Index.html------*/
+    div.welcome{
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    div.welcome-title{
+        text-align: center;
+    }
+
+    div.welcome-text{
+        text-align: center;
+    }
+
+    /*-----Artiste_article.html-----*/
+    div.nascio-bio{
+        width: 95%;
+    }
+
+    div.nascio-bio p{
+        width: 100%;
+    }
+
+    div.oeuvre-importante-1 div.background-image-1-work-parallax{
+        width: 80%;
+        left: 0%;
+        right: 0;
+        margin: auto;
+    }
+
+    div.oeuvre-importante-2 div.background-image-2-work-parallax{
+        width: 80%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    div.oeuvre-importante-3 div.background-image-3-work-parallax{
+        width: 100%;
+    }
+
+     div.oeuvre-importante-1 p{
+        top: 620px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.oeuvre-importante-2 p{
+        top: 720px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.oeuvre-importante-3 p{
+        width: 100%;
+        top: 520px;
+    }
+
+    /*-----Artiste_liste.html-----*/
+    section.artists-listing{
+        margin: auto;
+        width: 90%;
+    }
+
+    section.artists-listing article{
+        width: 30%;
+        padding: 50px 10%;
+    }
+
+    /*------EVENTS-----*/
+    div.main-event-other-events{
+        width: 80%;
+        margin: auto;
+    }
+
+    figcaption.retrouvez-nous p{
+        font-size: 22px;
+    }
+
+    section.other-events article{
+        width: 80%;
+    }
+
+    /*-----Contact-----*/
+    div.form-name-mail-message_googleMap{
+        width: 90%;
+        margin: auto;
+    }
+
+    div.form-name-mail-message div.form-name,
+    div.form-name-mail-message div.form-mail,
+    div.form-name-mail-message div.form-message{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    /*-----Index.html-----*/
+    div.slider{
+        height: 200px;
+        overflow: hidden;
+    }
+
+    /*-----Artiste_article.html-----*/
+    div.nascio-bio{
+        width: 100%;
+    }
+
+    div.nascio-profile figure.nascio-picture{
+        width: 45%;
+    }
+
+    div.oeuvre-importante-1 div.background-image-1-work-parallax,
+    div.oeuvre-importante-2 div.background-image-2-work-parallax{
+        width: 80%;
+    }
+
+    /*------EVENTS-----*/
+    div.main-event-other-events{
+        width: 100%;
+        margin: auto;
+    }
+
+    section.main-event{
+        width: 80%;
+        margin: auto;
+    }
+    section.main-event figure{
+        width: 100%;
+    }
+
+    figcaption.retrouvez-nous{
+        font-size: 20px;
+        top: 0;
+    }
+
+    figcaption.retrouvez-nous p{
+        font-size: 18px;
+    }
+
+    section.other-events img{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
+
+    /*-----Index.html-----*/
+    div.slider{
+        height: 150px;
+    }
+
+    /*-----Footer------*/
+
+    div.footer-for-all-pages footer ul{
+        width: 50%;
+        left: 0;
+        text-align: left;
+        top: 55px;
+    }
+
+    div.social-media{
+        width: 50%;
+        top: 0;
+        right: 0;
+        text-align: right;
+    }
+
+    div.social-media div.social-media-icons{
+    }
+
+    div.social-media div.social-media-icons{
+        width: 100%
+    }
+
+    div.social-media-icons img{
+        width: 30px;
+    }
+
+    /*-----Artiste_liste.html-----*/
+    section.artists-listing article{
+        float: none;
+        padding: 30px 0;
+        margin: auto;
+        width: 50%;
+    }
+}
